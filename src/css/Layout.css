@@ -1,0 +1,56 @@
+#navbar__emailDisplay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#navbar__emailDisplay img {
+  width: 10rem;
+}
+.Layout-background {
+  background-color: rgb(8, 8, 8);
+}
+.MuiPaper-root.MuiDrawer-paper.makeStyles-drawerPaper-98.MuiDrawer-paperAnchorLeft.MuiDrawer-paperAnchorDockedLeft.MuiPaper-elevation0 {
+  background-color: black;
+}
+/* .modal{
+    display: flex !important;
+  } */
+.modal.show .modal-dialog {
+  z-index: 5010 !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  /* position: relative !important; */
+}
+.MuiToolbar-root.MuiToolbar-regular.MuiToolbar-gutters {
+  display: flex !important;
+  justify-content: space-between !important;
+  background-color: rgb(10, 10, 10);
+}
+.profileTabNavbar {
+  margin-right: 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.profileTabNavbar a {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.profileTabNavbar a .profName {
+  display: flex;
+  flex-wrap: nowrap;
+  max-width: 20px;
+}
+.logout-Navbar {
+  color: white !important;
+  border: 2px solid white !important;
+}
+
+.logout-Navbar:hover {
+  background-color: red !important;
+}
